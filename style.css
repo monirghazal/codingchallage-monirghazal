@@ -1,0 +1,78 @@
+body{
+  background-image: url(background.jpg);
+  background-size: cover;
+}
+
+#contenitore{
+  width: 1200px;
+  height: 850px;
+  background-color: rgba(0,0,0,0.5);
+  margin: auto;
+  margin-top: 30px;
+  border-radius: 15px;
+}
+
+.logo-row{
+  color: chartreuse;
+}
+
+.logo-row, .button-bg{
+  text-align: center;
+}
+
+.logo-row, .scooter{
+  font-family: 'Quicksand', sans-serif;
+}
+
+.logo-row .logo{
+  width: 250px;
+  margin-top: 100px;
+}
+
+.button-bg{
+  width: 995px;
+  height: 50px;
+  background-color: chartreuse;
+}
+
+.button-bg, section{
+  margin-left: 100px;
+}
+
+.button-bg button{
+  margin-top: 15px;
+}
+
+section{
+  margin-top: 10px;
+}
+
+.scooter{
+  color: white;
+}
+
+.scooter #name-scooter{
+  font-size: 30px;
+}
+
+div :empty{
+  border-radius: 7px;
+}
+
+.scooter .battery-status1{
+  width: 350px;
+  height: 30px;
+  background-color: orange;
+}
+
+.scooter .battery-status2{
+  width: 600px;
+  height: 30px;
+  background-color: lightgreen;
+}
+
+.scooter .battery-status3{
+  width: 170px;
+  height: 30px;
+  background-color: red;
+}
